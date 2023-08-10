@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Pokedex</title>
+</head>
+
+<body>
+  <form id="editForm">
+    <h1>Añadir a pokedex</h1>
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" required><br>
+    
+    <label for="description">Descripción:</label>
+    <textarea id="description" name="description" rows="4" required></textarea><br>
+    
+    <label for="type">Tipo:</label><br>
+    <label class="column"><input type="checkbox" name="type" value="planta"> Planta</label><br>
+    <label class="column"><input type="checkbox" name="type" value="fuego"> Fuego</label><br>
+    <label class="column"><input type="checkbox" name="type" value="agua"> Agua</label><br>
+    <label class="column"><input type="checkbox" name="type" value="tierra"> Tierra</label><br>
+    <label class="column"><input type="checkbox" name="type" value="psiquico"> Psíquico</label><br>
+    <label class="column"><input type="checkbox" name="type" value="bicho"> Bicho</label><br>
+    <label class="column"><input type="checkbox" name="type" value="dragon"> Dragón</label><br>
+    <label class="column"><input type="checkbox" name="type" value="acero"> Acero</label><br>
+    <label class="column"><input type="checkbox" name="type" value="veneno"> Veneno</label><br>
+    <label class="column"><input type="checkbox" name="type" value="electrico"> Eléctrico</label><br>
+    <label class="column"><input type="checkbox" name="type" value="fantasma"> Fantasma</label><br>
+    <label class="column"><input type="checkbox" name="type" value="hada"> Hada</label><br>
+    <label class="column"><input type="checkbox" name="type" value="normal"> Normal</label><br>
+    <label class="column"><input type="checkbox" name="type" value="hielo"> Hielo</label><br>
+    <label class="column"><input type="checkbox" name="type" value="lucha"> Lucha</label><br>
+    <label class="column"><input type="checkbox" name="type" value="volador"> Volador</label><br>
+    <label class="column"><input type="checkbox" name="type" value="roca"> Roca</label><br>
+    <label class="column"><input type="checkbox" name="type" value="siniestro"> Siniestro</label><br>
+    
+    <label for="debilidades">Debilidades:</label>
+    <input type="text" id="debilidades" name="debilidades"><br>
+    
+    <label for="evolution">Evolución:</label>
+    <label><input type="radio" name="evolution" value="si"> Sí</label>
+    <label><input type="radio" name="evolution" value="no"> No</label><br>
+
+    <label for="image">Imagen:</label>
+    <input type="file" id="image" name="image" accept="image/*"><br>
+    
+    <button type="submit" id="addButton">Agregar Pokemon</button>
+    <button type="reset" id="deleteButton">Borrar Pokemon</button>
+  </form>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

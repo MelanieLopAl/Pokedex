@@ -1,0 +1,19 @@
+{
+  "name": "proyectofinalpokedex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Melanie y Jostin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.2",
+    "mongose": "^0.0.2-security",
+    "nodemon": "^3.0.1"
+  }
+}
